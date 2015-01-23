@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         button.frame = CGRectMake(100, 100, 100, 50)
         button.backgroundColor = UIColor.lightGrayColor()
         button.layer.cornerRadius=8.0;
-        button.setTitle("Test Button", forState: UIControlState.Normal)
+        button.setTitle("Click", forState: UIControlState.Normal)
         button.addTarget(self, action: "buttonAction:", forControlEvents: UIControlEvents.TouchUpInside)
         
         self.view.addSubview(button)
