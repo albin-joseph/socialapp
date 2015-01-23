@@ -279,7 +279,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (TD5QZNGPA5)";
 				INFOPLIST_FILE = socialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PRODUCT_NAME = socialapp;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
 			};
 			name = Debug;
@@ -291,7 +291,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (TD5QZNGPA5)";
 				INFOPLIST_FILE = socialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PRODUCT_NAME = socialapp;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
 			};
 			name = Release;
