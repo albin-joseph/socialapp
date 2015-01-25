@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B180F7F71A70D40600F9B26F /* socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B180F7F71A70D40600F9B26F /* socialapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B180F7FB1A70D40600F9B26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B180F7FC1A70D40600F9B26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B180F7FE1A70D40600F9B26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		B180F7F81A70D40600F9B26F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B180F7F71A70D40600F9B26F /* socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */,
+				B180F7F71A70D40600F9B26F /* socialapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			);
 			name = socialapp;
 			productName = socialapp;
-			productReference = B180F7F71A70D40600F9B26F /* socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */;
+			productReference = B180F7F71A70D40600F9B26F /* socialapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
@@ -263,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
 				SDKROOT = iphoneos;
