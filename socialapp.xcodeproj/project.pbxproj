@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49BD6E281A77F8BB005061A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BD6E271A77F8BB005061A2 /* SecondViewController.m */; };
 		B180F7FD1A70D40600F9B26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180F7FC1A70D40600F9B26F /* AppDelegate.swift */; };
 		B180F7FF1A70D40600F9B26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180F7FE1A70D40600F9B26F /* ViewController.swift */; };
 		B180F8021A70D40600F9B26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B180F8001A70D40600F9B26F /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49BD6E251A77F8BA005061A2 /* socialapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "socialapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		49BD6E261A77F8BB005061A2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		49BD6E271A77F8BB005061A2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B180F7F71A70D40600F9B26F /* socialapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B180F7FB1A70D40600F9B26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B180F7FC1A70D40600F9B26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,9 @@
 				B180F8031A70D40600F9B26F /* Images.xcassets */,
 				B180F8051A70D40600F9B26F /* LaunchScreen.xib */,
 				B180F7FA1A70D40600F9B26F /* Supporting Files */,
+				49BD6E261A77F8BB005061A2 /* SecondViewController.h */,
+				49BD6E271A77F8BB005061A2 /* SecondViewController.m */,
+				49BD6E251A77F8BA005061A2 /* socialapp-Bridging-Header.h */,
 			);
 			path = socialapp;
 			sourceTree = "<group>";
@@ -162,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BD6E281A77F8BB005061A2 /* SecondViewController.m in Sources */,
 				B180F7FF1A70D40600F9B26F /* ViewController.swift in Sources */,
 				B180F7FD1A70D40600F9B26F /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (TD5QZNGPA5)";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "$(SDKROOT)/ResourceRules.plist";
@@ -283,6 +292,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = socialapp;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
+				SWIFT_OBJC_BRIDGING_HEADER = "socialapp/socialapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -290,12 +301,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (TD5QZNGPA5)";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				INFOPLIST_FILE = socialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = socialapp;
 				PROVISIONING_PROFILE = "b2db9f87-a2f5-4945-ace9-977e34aed589";
+				SWIFT_OBJC_BRIDGING_HEADER = "socialapp/socialapp-Bridging-Header.h";
 			};
 			name = Release;
 		};
