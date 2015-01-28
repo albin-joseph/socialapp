@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B180F7F61A70D40600F9B26F"
-               BuildableName = "socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+               BuildableName = "socialapp.app"
                BlueprintName = "socialapp"
                ReferencedContainer = "container:socialapp.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B180F7F61A70D40600F9B26F"
-            BuildableName = "socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BuildableName = "socialapp.app"
             BlueprintName = "socialapp"
             ReferencedContainer = "container:socialapp.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B180F7F61A70D40600F9B26F"
-            BuildableName = "socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BuildableName = "socialapp.app"
             BlueprintName = "socialapp"
             ReferencedContainer = "container:socialapp.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B180F7F61A70D40600F9B26F"
-            BuildableName = "socialapp.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BuildableName = "socialapp.app"
             BlueprintName = "socialapp"
             ReferencedContainer = "container:socialapp.xcodeproj">
          </BuildableReference>

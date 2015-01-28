@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -38,6 +39,12 @@ class ViewController: UIViewController {
         var alert = UIAlertController(title: "Alert", message: "Button tapped", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
+        
+        
+        var sommeobj:SecondViewController=SecondViewController()
+        
+        
+        
     }
 
 }
